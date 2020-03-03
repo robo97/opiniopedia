@@ -1,0 +1,13 @@
+1583258864a:1:{s:11:"account.htm";a:11:{s:8:"fileName";s:11:"account.htm";s:7:"content";s:182:"title = "account"
+url = "/account"
+layout = "default"
+is_hidden = 0
+
+[account]
+paramCode = "code"
+forceSecure = 0
+
+[session]
+security = "all"
+==
+{% component 'account' %}";s:5:"mtime";i:1583257662;s:6:"markup";s:25:"{% component 'account' %}";s:4:"code";N;s:5:"title";s:7:"account";s:3:"url";s:8:"/account";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"account";a:2:{s:9:"paramCode";s:4:"code";s:11:"forceSecure";s:1:"0";}s:7:"session";a:1:{s:8:"security";s:3:"all";}}}
