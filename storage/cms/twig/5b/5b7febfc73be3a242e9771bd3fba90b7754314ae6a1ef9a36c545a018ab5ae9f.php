@@ -72,7 +72,7 @@ class __TwigTemplate_fa06023c1fc2411298ca5334c19c8d2c26ebd471ecf627de3e415dc432e
         ";
         } else {
             // line 31
-            echo "        <a class=\"nav-item nav-link\" src=\"account\" >Login/Register</a>
+            echo "        <a class=\"nav-item nav-link\" href=\"account\" >Login/Register</a>
         ";
         }
         // line 33
@@ -134,7 +134,7 @@ class __TwigTemplate_fa06023c1fc2411298ca5334c19c8d2c26ebd471ecf627de3e415dc432e
         {% if user %}
         <a class=\"nav-item nav-link\" data-request=\"onLogout\" data-request-data=\"\">Logout</a>
         {% else %}
-        <a class=\"nav-item nav-link\" src=\"account\" >Login/Register</a>
+        <a class=\"nav-item nav-link\" href=\"account\" >Login/Register</a>
         {% endif %}
         
       </li>

@@ -1,4 +1,4 @@
-1583258894a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1888:"[session]
+1583263639a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1889:"[session]
 security = "all"
 ==
 {% component 'session' %}<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,7 +31,7 @@ security = "all"
         {% if user %}
         <a class="nav-item nav-link" data-request="onLogout" data-request-data="">Logout</a>
         {% else %}
-        <a class="nav-item nav-link" src="account" >Login/Register</a>
+        <a class="nav-item nav-link" href="account" >Login/Register</a>
         {% endif %}
         
       </li>
@@ -41,7 +41,7 @@ security = "all"
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
-</nav>";s:5:"mtime";i:1583258292;s:6:"markup";s:1855:"{% component 'session' %}<nav class="navbar navbar-expand-lg navbar-light bg-light">
+</nav>";s:5:"mtime";i:1583263038;s:6:"markup";s:1856:"{% component 'session' %}<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -71,7 +71,7 @@ security = "all"
         {% if user %}
         <a class="nav-item nav-link" data-request="onLogout" data-request-data="">Logout</a>
         {% else %}
-        <a class="nav-item nav-link" src="account" >Login/Register</a>
+        <a class="nav-item nav-link" href="account" >Login/Register</a>
         {% endif %}
         
       </li>
