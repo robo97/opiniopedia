@@ -39,7 +39,7 @@ class __TwigTemplate_31aab6de2cc4c5b4a83dbda3b2a330a69aca9d40c8799b8490543096a90
   <head>
     <meta charset=\"utf-8\">
     <title>opiniopedia</title>
-
+    
 <!-- BOOTSTRAP -->
     <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
     <script src=\"https://code.jquery.com/jquery-3.4.1.slim.min.js\" integrity=\"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n\" crossorigin=\"anonymous\"></script>
@@ -48,19 +48,23 @@ class __TwigTemplate_31aab6de2cc4c5b4a83dbda3b2a330a69aca9d40c8799b8490543096a90
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
 <!-- BOOTSTRAP -->
 
+    <link href=\"";
+        // line 15
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/style.css");
+        echo "\" rel=\"stylesheet\">
 
 <!-- USER -->
     <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
     <script src=\"";
-        // line 18
+        // line 19
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/javascript/jquery.js");
         echo "\"></script>
     ";
-        // line 19
+        // line 20
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework'.($_minify ? '-min' : '').'.js"></script>'.PHP_EOL;
         unset($_minify);
-        // line 20
+        // line 21
         echo "    ";
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
@@ -72,24 +76,26 @@ class __TwigTemplate_31aab6de2cc4c5b4a83dbda3b2a330a69aca9d40c8799b8490543096a90
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 21
+        // line 22
         echo "<!-- USER -->
+
+  
 
   </head>
   <body>
 
 
     ";
-        // line 27
+        // line 30
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 28
+        // line 31
         echo "
     ";
-        // line 29
+        // line 32
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 30
+        // line 33
         echo "
 
   </body>
@@ -108,7 +114,7 @@ class __TwigTemplate_31aab6de2cc4c5b4a83dbda3b2a330a69aca9d40c8799b8490543096a90
 
     public function getDebugInfo()
     {
-        return array (  93 => 30,  91 => 29,  88 => 28,  84 => 27,  76 => 21,  64 => 20,  60 => 19,  56 => 18,  37 => 1,);
+        return array (  99 => 33,  97 => 32,  94 => 31,  90 => 30,  80 => 22,  68 => 21,  64 => 20,  60 => 19,  53 => 15,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -118,7 +124,7 @@ class __TwigTemplate_31aab6de2cc4c5b4a83dbda3b2a330a69aca9d40c8799b8490543096a90
   <head>
     <meta charset=\"utf-8\">
     <title>opiniopedia</title>
-
+    
 <!-- BOOTSTRAP -->
     <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
     <script src=\"https://code.jquery.com/jquery-3.4.1.slim.min.js\" integrity=\"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n\" crossorigin=\"anonymous\"></script>
@@ -127,6 +133,7 @@ class __TwigTemplate_31aab6de2cc4c5b4a83dbda3b2a330a69aca9d40c8799b8490543096a90
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
 <!-- BOOTSTRAP -->
 
+    <link href=\"{{ 'assets/style.css'|theme }}\" rel=\"stylesheet\">
 
 <!-- USER -->
     <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>
@@ -134,6 +141,8 @@ class __TwigTemplate_31aab6de2cc4c5b4a83dbda3b2a330a69aca9d40c8799b8490543096a90
     {% framework %}
     {% framework extras %}
 <!-- USER -->
+
+  
 
   </head>
   <body>

@@ -1,0 +1,42 @@
+@import "./variables";
+
+.navbar {
+    height: 75px;
+    background-color: $primaryNav;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 38px;
+    margin-right: 60px;
+    margin-left: 20px;
+}
+
+.container-ask {
+    height: 700px;
+    border: solid 2px red;
+    background-color: $white;
+}
+
+.footer {
+    height: 400px;
+    background-color: black;
+}
+
+.searchbtn {
+    color: $white;
+    border:solid 1px $white;
+
+    &:hover {
+        background-color: $secondaryNav;
+        border:solid 1px black;
+}
+}
+
+.navbarbtn {
+    background-color: $secondaryNav;
+
+}
