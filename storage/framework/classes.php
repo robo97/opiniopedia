@@ -13,4 +13,11 @@
   'RainLab\\User\\Classes\\AuthManager' => 'plugins/rainlab/user/classes/AuthManager.php',
   'RainLab\\User\\Models\\Settings' => 'plugins/rainlab/user/models/Settings.php',
   'RainLab\\User\\Components\\Account' => 'plugins/rainlab/user/components/Account.php',
+  'RainLab\\User\\Components\\ResetPassword' => 'plugins/rainlab/user/components/ResetPassword.php',
+  'RoBotron\\Opiniopedia\\Components\\newpost' => 'plugins/robotron/opiniopedia/components/newpost.php',
+  'robotron\\opiniopedia\\Controllers\\Pedia' => 'plugins/robotron/opiniopedia/controllers/Pedia.php',
+  'RoBotron\\Opiniopedia\\Models\\Opinio' => 'plugins/robotron/opiniopedia/models/Opinio.php',
+  'rainlab\\user\\Controllers\\users' => 'plugins/rainlab/user/controllers/users.php',
+  'RainLab\\User\\Models\\User' => 'plugins/rainlab/user/models/User.php',
+  'RainLab\\User\\Models\\UserGroup' => 'plugins/rainlab/user/models/UserGroup.php',
 );

@@ -22,7 +22,10 @@ class Opinio extends Model
     /**
      * @var array Fillable fields
      */
-    protected $fillable = ['categories'];
+    protected $fillable = [
+      'categories',
+      'questions'
+    ];
 
     /**
      * @var array Validation rules for attributes

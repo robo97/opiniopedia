@@ -13,6 +13,7 @@ class CreateOpiniosTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('categories');
+            $table->string('questions');
         });
     }
 

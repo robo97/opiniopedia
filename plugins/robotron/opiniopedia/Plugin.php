@@ -50,10 +50,9 @@ class Plugin extends PluginBase
      */
     public function registerComponents()
     {
-        return []; // Remove this line to activate
 
         return [
-            'RoBotron\Opiniopedia\Components\MyComponent' => 'myComponent',
+            'RoBotron\Opiniopedia\Components\newpost' => 'NewPost',
         ];
     }
 
