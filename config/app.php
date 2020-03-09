@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost/opiniopedia/',
+    'url' => env('APP_URL', 'http://localhost/opiniopedia/'),
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +101,7 @@ return [
     |
     */
 
-    'key' => 'aPgUpCSPHNtzk6ePysQhwBLDhuRaYFst',
+    'key' => env('APP_KEY', ''),
 
     'cipher' => 'AES-256-CBC',
 
