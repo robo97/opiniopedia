@@ -22,7 +22,3 @@ _ide_helper.php
 
 # for netbeans
 nbproject
-
-# for VSCode
-/.vs
-/.VSCode

@@ -98,6 +98,7 @@
     'command.route.list' => 'October\\Rain\\Foundation\\Providers\\ConsoleSupportServiceProvider',
     'Illuminate\\Console\\Scheduling\\ScheduleFinishCommand' => 'October\\Rain\\Foundation\\Providers\\ConsoleSupportServiceProvider',
     'Illuminate\\Console\\Scheduling\\ScheduleRunCommand' => 'October\\Rain\\Foundation\\Providers\\ConsoleSupportServiceProvider',
+    'command.seed' => 'October\\Rain\\Foundation\\Providers\\ConsoleSupportServiceProvider',
     'command.storage.link' => 'October\\Rain\\Foundation\\Providers\\ConsoleSupportServiceProvider',
     'command.up' => 'October\\Rain\\Foundation\\Providers\\ConsoleSupportServiceProvider',
     'command.view.clear' => 'October\\Rain\\Foundation\\Providers\\ConsoleSupportServiceProvider',
