@@ -10,3 +10,7 @@ columns:
     categories:
         label: categories
         searchable: true
+
+    questions:
+        label: questions
+        searchable: true

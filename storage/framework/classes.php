@@ -20,4 +20,6 @@
   'rainlab\\user\\Controllers\\users' => 'plugins/rainlab/user/controllers/users.php',
   'RainLab\\User\\Models\\User' => 'plugins/rainlab/user/models/User.php',
   'RainLab\\User\\Models\\UserGroup' => 'plugins/rainlab/user/models/UserGroup.php',
+  'RoBotron\\opiniopedia\\models\\Opinio' => 'plugins/robotron/opiniopedia/models/Opinio.php',
+  'robotron\\opiniopedia\\Controllers\\pedia' => 'plugins/robotron/opiniopedia/controllers/pedia.php',
 );

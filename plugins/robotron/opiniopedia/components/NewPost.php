@@ -1,7 +1,9 @@
 <?php namespace RoBotron\Opiniopedia\Components;
 
 use Cms\Classes\ComponentBase;
-use Db;
+
+use Model;
+use RoBotron\opiniopedia\models\Opinio;
 
 class NewPost extends ComponentBase
 {
@@ -18,7 +20,7 @@ class NewPost extends ComponentBase
         'categories',
         'questions'
       ]);
-      Db::table('robotron_opiniopedia_opinios')->insert($data);
+      Opinio::create($data);
     }
 
     public function defineProperties()

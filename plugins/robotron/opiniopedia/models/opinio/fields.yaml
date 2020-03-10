@@ -8,3 +8,5 @@ fields:
         disabled: true
     categories:
         label: categories
+    questions:
+        label: questions
