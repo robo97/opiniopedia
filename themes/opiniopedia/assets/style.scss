@@ -1,5 +1,5 @@
 @import "./variables";
-/*Navbar*/
+/*navbar*/
 .navbar {
     height: 85px;
     background-color: $primaryNav;
@@ -25,9 +25,14 @@
 }
 .kategorie li a{
     color: $white;
-  }
+}
+
+.account { 
+    right: 500px;
+}
 
 .searchbtn {
+
     color: $white;
     border:solid 1px $white;
 
@@ -36,8 +41,35 @@
         border:solid 1px black;
 }
 }
-
 .navbarbtn {
     background-color: $secondaryNav;
+}/*navbar koniec*/
 
+/*main part, otazky kategorie, homepage*/
+.otazkyrow { 
+    height: 450px;
+    background-color: $secondaryNav;
+    display: flex;
+    align-items: center;
 }
+.otazky { 
+    display: flex;
+    justify-content: center;
+}
+.mainotazky{ 
+    display: flex;
+    background-color: $white;
+    color: black;
+    border: solid 1px rgb(160, 160, 160);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+::placeholder { 
+    color: rgb(85, 85, 85);
+}
+input {
+    padding: 6px 10px;
+    width: 400px;
+}
+
+/*main part koniec*/

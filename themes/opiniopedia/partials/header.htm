@@ -9,9 +9,10 @@ function onStart() {
 ==
 {% component 'session' %}
 
+
 <nav class="navbar navbar-expand-sm nav">
         <a class="navbar-brand " href="/">Opiniopedia</a>
-        <button class="navbar-toggler navbarbtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbarbtn navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon togglerbtn"></span>
         </button>
 
@@ -29,6 +30,7 @@ function onStart() {
                 <a class="dropdown-item" href="#">technologie</a>
               </div>
             </li>
+
             <li class="nav-item">
 
               {% if user %}
@@ -40,9 +42,11 @@ function onStart() {
             </li>
           </ul>
 
+
           <form class="form-inline my-2 my-sm-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0 searchbtn" type="submit">Search</button>
           </form>
+          
         </div>
       </nav>

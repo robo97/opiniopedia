@@ -7,3 +7,16 @@ is_hidden = 0
 ==
 
 {% component 'NewPost' %}
+
+
+<div class="container-fluid mainpage">
+    <div class="row otazkyrow">
+        <div class="col otazky">
+            <form class="inputclass" method="post">
+                <input class="otazka mainotazky" type="text" name="questions" placeholder="Spytajte sa nieco">
+                <input class="vyberkategorie mainotazky" type="text" name="categories" placeholder="Vyberte kategoriu">
+                <button class="otazkasubmit" data-request="onNewPost">Submit</button>
+                </form>
+        </div>
+    </div>
+</div>
