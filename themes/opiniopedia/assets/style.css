@@ -1,27 +1,30 @@
+/*Navbar*/
 .navbar {
-  height: 75px;
+  height: 85px;
   background-color: #212324;
 }
 
 .navbar a {
-  color: white;
+  color: #fafafa;
 }
 
 .navbar-brand {
   font-size: 38px;
   margin-right: 60px;
   margin-left: 20px;
+  color: #fafafa;
 }
 
-.container-ask {
-  height: 700px;
-  border: solid 2px red;
-  background-color: #fafafa;
+.navbar-collapse {
+  background-color: #212324;
 }
 
-.footer {
-  height: 400px;
-  background-color: black;
+.kategorie {
+  background-color: #212324;
+}
+
+.kategorie li a {
+  color: #fafafa;
 }
 
 .searchbtn {
