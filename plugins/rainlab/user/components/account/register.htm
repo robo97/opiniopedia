@@ -2,7 +2,7 @@
     <h3>Register</h3>
 
     {{ form_ajax('onRegister') }}
-
+<div class="container registerkontainer">
         <div class="form-group">
             <label for="registerName">Full Name</label>
             <input
@@ -45,8 +45,8 @@
                 placeholder="Choose a password" />
         </div>
 
-        <button type="submit" class="btn btn-default">Register</button>
-
+        <button type="submit" class="btn btn-default registerbtn">Register</button>
+</div>
     {{ form_close() }}
 {% else %}
     <!-- Registration is disabled. -->

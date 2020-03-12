@@ -37,19 +37,19 @@
 }
 
 .searchbtn:hover {
-  background-color: #c7c6c6;
+  background-color: #dfdfdf;
   border: solid 1px black;
 }
 
 .navbarbtn {
-  background-color: #c7c6c6;
+  background-color: #dfdfdf;
 }
 
 /*navbar koniec*/
 /*main part, otazky kategorie, homepage*/
 .otazkyrow {
   height: 450px;
-  background-color: #c7c6c6;
+  background-color: #dfdfdf;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,10 +94,41 @@
   color: #555555;
 }
 
-input {
+.otazka {
   padding: 6px 10px;
   width: 400px;
 }
 
-/*main part koniec*/
+.vyberkategorie {
+  padding: 6px 10px;
+  width: 400px;
+}
+
+/*Koniec main part*/
+/*Registracia,prihlasenie*/
+.prihlasenie {
+  background-color: #dfdfdf;
+  border-radius: 5px;
+  height: 360px;
+  max-width: 550px;
+}
+
+.signinbtn {
+  margin-top: 15px;
+  border: solid black 1px;
+}
+
+.registracia {
+  background-color: #dfdfdf;
+  border-radius: 5px;
+  height: 360px;
+  max-width: 550px;
+}
+
+.registerbtn {
+  margin-top: 5px;
+  border: solid black 1px;
+}
+
+/*Koniec Registracia,prihlasenie*/
 /*# sourceMappingURL=style.css.map */

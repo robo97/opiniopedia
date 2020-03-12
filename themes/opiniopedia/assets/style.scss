@@ -67,9 +67,39 @@
 ::placeholder { 
     color: rgb(85, 85, 85);
 }
-input {
+.otazka {
     padding: 6px 10px;
     width: 400px;
 }
+.vyberkategorie {
+    padding: 6px 10px;
+    width: 400px;
+}
+/*Koniec main part*/
 
-/*main part koniec*/
+
+/*Registracia,prihlasenie*/
+
+.prihlasenie {
+    background-color: $secondaryNav;
+    border-radius: 5px;
+    height: 360px;
+    max-width: 550px;
+}
+.signinbtn {
+    margin-top: 15px;
+    border: solid black 1px;
+}
+
+.registracia {
+    background-color: $secondaryNav;
+    border-radius: 5px;
+    height: 360px;
+    max-width: 550px;
+}
+
+.registerbtn {
+    margin-top: 5px;
+    border: solid black 1px;
+}
+/*Koniec Registracia,prihlasenie*/
