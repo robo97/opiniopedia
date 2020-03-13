@@ -106,7 +106,19 @@
 
 /*Koniec main part*/
 /*Registracia,prihlasenie*/
+.formakontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .prihlasenie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #dfdfdf;
   border-radius: 5px;
   height: 360px;
@@ -119,6 +131,9 @@
 }
 
 .registracia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #dfdfdf;
   border-radius: 5px;
   height: 360px;

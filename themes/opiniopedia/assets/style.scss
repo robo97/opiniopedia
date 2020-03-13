@@ -80,7 +80,13 @@
 
 /*Registracia,prihlasenie*/
 
+.formakontainer {
+    display: flex;
+    justify-content: center;
+}
+
 .prihlasenie {
+    display: flex;
     background-color: $secondaryNav;
     border-radius: 5px;
     height: 360px;
@@ -92,6 +98,7 @@
 }
 
 .registracia {
+    display: flex;
     background-color: $secondaryNav;
     border-radius: 5px;
     height: 360px;
@@ -102,4 +109,5 @@
     margin-top: 5px;
     border: solid black 1px;
 }
+
 /*Koniec Registracia,prihlasenie*/
