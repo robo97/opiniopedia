@@ -79,14 +79,10 @@
 
 
 /*Registracia,prihlasenie*/
-.formakontainer {
-    height: 880px;
-    background-color: $white;
-}
 
-.formarow {
-    justify-content: space-evenly;
+.formacol {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .prihlasenie {

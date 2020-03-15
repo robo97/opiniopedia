@@ -106,18 +106,13 @@
 
 /*Koniec main part*/
 /*Registracia,prihlasenie*/
-.formakontainer {
-  height: 880px;
-  background-color: #fafafa;
-}
-
-.formarow {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+.formacol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .prihlasenie {

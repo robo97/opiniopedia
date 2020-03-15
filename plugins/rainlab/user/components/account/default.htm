@@ -1,6 +1,7 @@
 {% if not user %}
-<div class="container-fluid formakontainer">
-    <div class="row formarow">
+    <div class="container-fluid formacontainer">
+        <div class="row formarow">
+            <div class="col formacol ">
         <div class="col-lg-6 prihlasenie">
   
             {% partial __SELF__ ~ '::signin' %}
@@ -10,7 +11,8 @@
             {% partial __SELF__ ~ '::register' %}
         </div>
     </div>
-</div>
+    </div>
+    </div>
 {% else %}
 
     {% partial __SELF__ ~ '::activation_check' %}
