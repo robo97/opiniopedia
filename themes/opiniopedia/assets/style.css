@@ -50,44 +50,22 @@
 .otazkyrow {
   height: 450px;
   background-color: #dfdfdf;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .otazky {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .mainotazky {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #fafafa;
   color: black;
   border: solid 1px #a0a0a0;
   border-radius: 4px;
   margin-bottom: 15px;
-}
-
-::-webkit-input-placeholder {
-  color: #555555;
-}
-
-:-ms-input-placeholder {
-  color: #555555;
-}
-
-::-ms-input-placeholder {
-  color: #555555;
 }
 
 ::placeholder {
@@ -106,13 +84,10 @@
 
 /*Koniec main part*/
 /*Registracia,prihlasenie*/
-.formacol {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.formarow {
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .prihlasenie {
@@ -140,4 +115,3 @@
 }
 
 /*Koniec Registracia,prihlasenie*/
-/*# sourceMappingURL=style.css.map */
